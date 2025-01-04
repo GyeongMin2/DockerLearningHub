@@ -27,3 +27,6 @@ replay_pid*
 .vscode/*
 .obsidian/*
 .DS_Store
+
+dockertest/node/node_modules
+dockertest/node/package-lock.json
