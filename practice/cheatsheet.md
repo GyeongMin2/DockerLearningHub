@@ -12,3 +12,8 @@
 ## 로그/디버깅
 - `docker logs -f name`
 - `docker exec -it name sh`
+
+## Compose
+- `docker compose up -d --build`
+- `docker compose logs -f`
+- `docker compose down`
