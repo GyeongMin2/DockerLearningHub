@@ -4,5 +4,8 @@ WORKDIR /app
 
 COPY . .
 
-# exec form 권장
 RUN ["npm", "install"]
+
+EXPOSE 8080
+
+CMD ["node", "server.js"]
