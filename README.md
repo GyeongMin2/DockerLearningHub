@@ -19,3 +19,11 @@ cd dockerfile/node-app
 docker build -t node-practice:0.1 .
 docker run --rm -p 8080:8080 node-practice:0.1
 ```
+
+## Compose
+
+```bash
+cd compose
+docker compose up -d --build
+docker compose logs -f web
+```
