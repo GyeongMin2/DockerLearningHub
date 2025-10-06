@@ -8,6 +8,7 @@
 
 ## 빌드
 - `docker build -t name:tag .`
+- `docker tag local:tag user/name:tag`
 
 ## 로그/디버깅
 - `docker logs -f name`
@@ -17,3 +18,6 @@
 - `docker compose up -d --build`
 - `docker compose logs -f`
 - `docker compose down`
+
+## 정리
+- `docker system prune`
